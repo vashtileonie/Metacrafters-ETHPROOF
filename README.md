@@ -15,9 +15,8 @@ There are no installations required. Only the web browser is needed, and it is i
 3. Copy and paste the code shown below (which can also be seen in myToken.sol from this repository)
    ```
     // SPDX-License-Identifier: MIT
-pragma solidity 0.8.18;
-
-/*
+   pragma solidity 0.8.18;
+   */
        REQUIREMENTS
     1. Your contract will have public variables that store the details about your coin (Token Name, Token Abbrv., Total Supply)
     2. Your contract will have a mapping of addresses to balances (address => uint)
@@ -29,9 +28,9 @@ pragma solidity 0.8.18;
        and from the balance of the “sender”.
     5. Lastly, your burn function should have conditionals to make sure the balance of "sender" is greater than or equal 
        to the amount that is supposed to be burned.
-*/
+   */
 
-contract MyToken {
+   contract MyToken {
 
     // public variables here
     string public tokenName = "META";
@@ -52,10 +51,10 @@ contract MyToken {
         if (balances[_address] >= _value) {
             totalSupply -= _value;
             balances[_address] -= _value;
-        }
-    }
-}
-  ```
+           }   
+       }
+   } 
+
   6. Compile the code by clicking on the Solidity compiler icon in the sidebar.
   7. Then, click "Deploy & Run Transactions" icon found on the sidebar.
   8. To deploy, click on the orange "Deploy" button.
