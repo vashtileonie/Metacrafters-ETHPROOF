@@ -10,9 +10,12 @@ This program shows how to create a token written in Solidity, a programming lang
 There are no installations required. Only the web browser is needed, and it is ideal to use Remix. Remix website at: https://remix.ethereum.org/.
 
 ### Executing program
-1. Create a new file by clicking on the "+" icon in the sidebar. _(Remix website)_
-2. Name the file and use the .sol file extension
-3. Copy and paste the code shown below (which can also be seen in myToken.sol from this repository)
+1. **Create a New File**
+   - In Remix, click on the "+" icon in the sidebar to create a new file.
+   - Name the file with a `.sol` extension (e.g., `MyToken.sol`).
+
+2. **Copy and Paste the Code**
+   - Copy the Solidity code provided below and paste it into your newly created `.sol` file.
    ```
     // SPDX-License-Identifier: MIT
    pragma solidity 0.8.18;
@@ -55,10 +58,18 @@ There are no installations required. Only the web browser is needed, and it is i
        }
    } 
 
-  6. Compile the code by clicking on the Solidity compiler icon in the sidebar.
-  7. Then, click "Deploy & Run Transactions" icon found on the sidebar.
-  8. To deploy, click on the orange "Deploy" button.
-  9. Configure and test by following the conditions stated in the requirements comment at the code's beginning.
+3. **Compile the Code**
+      - Click on the "Solidity compiler" icon in the sidebar.
+      - Select the appropriate compiler version (0.8.18) and click on the "Compile MyToken.sol" button.
+        
+4. **Deploy the Contract**
+      - Click on the "Deploy & Run Transactions" icon in the sidebar.
+      - Ensure the correct environment is selected (e.g., JavaScript VM).
+      - Click on the "Deploy" button.
+5. **Interact with the Contract**
+      - After deployment, the contract will appear under the "Deployed Contracts" section.
+      - You can now interact with the contract's functions (mint and burn) using the provided UI.
+        
 
 ## Authors
 Vashti Leonie D. Bauson
