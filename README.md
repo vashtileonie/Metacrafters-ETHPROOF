@@ -69,7 +69,7 @@ There are no installations required. Only the web browser is needed, and it is i
 5. **Interact with the Contract**
       - After deployment, the contract will appear under the "Deployed Contracts" section.
       - You can now interact with the contract's functions (mint and burn) using the provided UI.
-        
 
+   
 ## Authors
 Vashti Leonie D. Bauson
