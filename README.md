@@ -73,3 +73,6 @@ There are no installations required. Only the web browser is needed, and it is i
    
 ## Authors
 Vashti Leonie D. Bauson
+
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details
